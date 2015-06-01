@@ -47,7 +47,7 @@ table {
 body {
     /*Courier,monospace*/
     font-family: 'Cutive Mono';
-    background: url('/images/bg.png');
+    background: url('images/bg.png');
 
     position: absolute;
     left: 30%;
@@ -80,5 +80,18 @@ body {
 }
 
 .some_random_text {
-    font-size: 0.9em;
+    font-size: 1em;
+}
+
+.project_pic {
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    border-radius: 3px;
+    border: 1px solid #EEEEEE;
+}
+.project_pic:hover{
+    cursor: pointer;
+
+    border: 1px solid #DDDDDD;
 }
